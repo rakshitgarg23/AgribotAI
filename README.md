@@ -1,6 +1,6 @@
-# 💧 AquaBot — AI Water Management Chatbot
+# 💧 Agribot — AI Water Management Chatbot
 
-AquaBot is an intelligent, rule-based chatbot built with **FastAPI** that answers questions about water conservation, water quality, usage monitoring, rainwater and fog harvesting, smart water technology, and regulations. It ships with a polished, dark-themed chat UI served directly from the backend — no separate frontend build required.
+Agribot is an intelligent, rule-based chatbot built with **FastAPI** that answers questions about water conservation, water quality, usage monitoring, rainwater and fog harvesting, smart water technology, and regulations. It ships with a polished, dark-themed chat UI served directly from the backend — no separate frontend build required.
 
 ## Features
 
@@ -121,7 +121,3 @@ Clears all conversation history and session context.
 2. **Response generation** — each domain has a dedicated handler that inspects the query for specific sub-topics (e.g., "shower", "leak", "pH", "lead") and returns a tailored, formatted answer from the knowledge base.
 3. **Fallback handling** — if no domain matches strongly, the bot checks for conversational intents (greetings, thanks, jokes, facts, emergencies, etc.) before falling back to a general help message.
 4. **Suggestions & context** — each response includes follow-up question suggestions and any extracted context (numbers, setting, climate) to keep the conversation flowing naturally.
-
-## License
-
-This project is provided as-is for educational and demonstration purposes.
