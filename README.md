@@ -1,4 +1,6 @@
 # 💧 Agribot — AI Water Management Chatbot
+ Live Demo : [AgribotAI](https://elegant-clafoutis-4f6de1.netlify.app/)
+
 
 Agribot is an intelligent, rule-based chatbot built with **FastAPI** that answers questions about water conservation, water quality, usage monitoring, rainwater and fog harvesting, smart water technology, and regulations. It ships with a polished, dark-themed chat UI served directly from the backend — no separate frontend build required.
 
